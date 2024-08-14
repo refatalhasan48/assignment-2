@@ -384,4 +384,100 @@ header>h1{
     width: 100%;
 }
 
+.bmi>h1 {
+    color: white;
+    margin-top: 80px;
+}
+.bmi>p {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.bmi {
+    height: fit-content;
+    width: 50%;
+    margin-left: 10%;
+}
+
+.bmical {
+    width: 100%;
+    height: fit-content;
+    background-color:  rgb(34, 34, 34);
+    justify-content: center;
+    display: flex;
+}
+
+.bmibox {
+    width: 60%;
+    height: fit-content;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftbmi {
+    height: fit-content;
+    width: 30%;
+}
+
+.rightbmi {
+    height: 100%;
+    width: 50%;
+}
+
+.leftbmi>h1 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Inter;
+    font-size: 15px;
+}
+th, td {
+    border: 1px solid #dddddd88;
+    padding: 10px;
+    text-align: left;
+    color: white;
+    opacity: 0.5;
+    font-weight: 200;
+    font-size: 10px;
+}
+
+th {
+    font-weight: 600;
+    opacity: 0.8;
+    font-size: 0.8em;
+}
+
+.righttext>h1 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.rightinput {
+    margin-top: 10px;
+}
+
+.rightinput>input {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.calbtn {
+    padding: 10px 50px;
+    border-radius: 50px;
+    font-family: Inter;
+    margin-top: 10px;
+    background-color: rgb(230, 83, 60);
+    color: white;
+    border: none;
+}
 

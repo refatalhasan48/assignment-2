@@ -101,6 +101,25 @@
         height: 100%;
         width: auto;
     }
-    
+
+    .bmi {
+        margin-left: 0%;
+    }
+    .bmibox {
+        display: flex;
+        flex-direction: column;
+    }
+    .leftbmi {
+        width: 100%;
+    }
+
+    .rightbmi {
+        width: 100%;
+
+    }
+
+    .rightinput>input {
+        width: 100%;
+    }
 
 }
