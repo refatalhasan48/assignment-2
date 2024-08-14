@@ -481,3 +481,52 @@ th {
     border: none;
 }
 
+.meetsectionmain {
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+}
+
+.meetsub {
+    height: fit-content;
+    width: 60vw;
+    margin-top: 100px;
+}
+
+.meetsub>h1 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.meetsub>p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.meetimage {
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+    margin-top: 50px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+  
+.image-container img {
+    width: 30%;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+}
+  
+
