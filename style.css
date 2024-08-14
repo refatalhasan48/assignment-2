@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/* shired style */
+
+.h1-style {
+    font-family: Inter;
+    font-size: 2em;
+}
+
+.p-style {
+    font-family: Inter;
+    font-size: 0.6em;
+    color: white;
+    opacity: 0.5;
+    letter-spacing: 0.5px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgb(43, 43, 43) 35%, rgb(0, 0, 0) 100%);  
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+nav>ul {
+    display: flex;
+    gap: 20px;
+    padding: 5px 0px;
+    padding-right: 15px;
+    padding-left: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+
+nav {
+    margin-top: 50px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 0.8em;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+nav>ul>li {
+    list-style: none;
+}
+
+header>h1{
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    margin-top: 50px;
+    font-weight: 700;
+}
+
+#home {
+    background-color: rgb(230, 83, 60);
+    padding: 5px 10px;
+    border-radius: 40px;
+}
+
+.menubar {
+    display: none;
+    margin-top: 10px;
+}
+
+.left>button {
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 0.6em;
+    font-family: Inter;
+    margin-top: 10px;
+    color: white;
+}
+
+.btn1 {
+    background-color: rgb(230, 83, 60);
+    border: 1px solid rgb(230, 83, 60);
+}
+
+.btn2 {
+    background-color: rgba(230, 83, 60, 0);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.left>h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: 10px;
+}
+
+.right {
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 30vw;
+    background-position: center;
+    background-size: contain;
+    margin-left: 100px;
+    position: static;
+}
+
+.left {
+    overflow: hidden;
+    margin-top: 100px;
+    height: auto;
+}
+
+.main-header {
+    position: absolute;
+    top: 20%;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.blur1 {
+    height: 80px;
+    width: 150px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    top: 70%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.blur2 {
+    height: 80px;
+    width: 150px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    top: 25%;
+    right: 20%;
+    position: absolute;
+}
+
+.bh1 {
+    color: white;
+
+}
+
+.blur2>h1 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.blur2>p {
+    margin-left: 20px;
+}
+
+
+
+.circle {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.h1andp {
+    margin-left: 10px;
+}
+
+.trainersection {
+    height: fit-content;
+    width: 100vw;
+}
+
+.trainersection>div>h1 {
+    color: white;
+}
+
+.titletr>h1 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.trainer {
+    text-align: center;
+}
+
+.trainersection {
+    justify-content: center;
+    display: flex;
+}
+
+.titletr {
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.trainersection>div>img {
+    border-radius: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.616);
+    padding: 2px;
+    height: 100px;
+}
+.trainersection>div>p {
+    margin-top: 10px;
+}
+
+.trainersection>div>h1 {
+    margin-top: 10px;
+
+}
+
+.trainersection>div {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.cardsection {
+    width: 100%;
+    margin-top: 50px;
+    height: fit-content;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    height: 250px;
+    width: 800px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.leftcard {
+    width: 40%;
+    height: 70%;
+}
+
+.leftcard>h1 {
+    color: white;
+    font-weight: 900;
+}
+.leftcard>p {
+    margin-top: 15px;
+}
+
+.rightcard {
+    width: fit-content;
+    height: 70%;
+    overflow: hidden;
+    border-radius: 18px;
+}
+
+.rightcard>img {
+    height: 100%;
+    width: auto;
+}
+
+.leftcard>button {
+    background-color: rgb(230, 83, 60);
+    border-radius: 50px;
+    padding: 10px 25px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    font-family: Inter;
+}
