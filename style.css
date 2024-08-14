@@ -25,7 +25,7 @@ html, body {
     font-size: 0.6em;
     color: white;
     opacity: 0.5;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 header {
@@ -528,5 +528,66 @@ th {
     margin: 10px;
     border-radius: 10px;
 }
-  
 
+footer {
+    width: 100%;
+    height: fit-content;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 200px;
+    display: flex;
+    justify-content: center
+}
+
+.footer-container {
+    height: 300px;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.leftfooter {
+    height: 100%;
+    width: 50vw;
+}
+.centerfooter {
+    height: 100%;
+    width: 25vw;
+    padding-left: 20px;
+}
+.rightfooter {
+    height: 100%;
+    width: 25vw;
+    padding-left: 20px;
+}
+
+.leftfooter>h1 {
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    margin-top: 50px;
+    font-weight: 700;
+}
+
+.leftfooter>p {
+    margin-top: 5px;
+    
+}
+
+
+
+.centerfooter>h1, .rightfooter>h1 {
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 20px ;
+    font-size: 20px;
+}
+
+.centerfooter>h4, .rightfooter>h4 {
+    font-family: Inter;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    opacity: 0.5;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
