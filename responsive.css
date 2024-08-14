@@ -88,4 +88,19 @@
     .leftcard>button {
         width: 100%;
     }
+
+    .tx-main {
+        width: 80%;
+    }
+    .upper>div>img {
+        height: 100%;
+        width: auto;
+    }
+    
+    .lower>div>img {
+        height: 100%;
+        width: auto;
+    }
+    
+
 }
