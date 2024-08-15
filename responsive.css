@@ -16,7 +16,7 @@
 
     .right {
         width: 100vw;
-        height: 600px;
+        height: 40%;
         background-size: contain;
         margin-left: 0px;
         margin-top: 0px;
@@ -143,5 +143,9 @@
     }
     .leftfooter {
         width: 100%;
+    }
+
+    .divhr {
+        margin-top: 200px;
     }
 }
